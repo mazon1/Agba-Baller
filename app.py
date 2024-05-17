@@ -7,6 +7,8 @@ import folium
 
 # Load the dataset with a specified encoding
 data = pd.read_csv('kijiji_cleaned.csv', encoding='latin1')
+#Choose Luxury listings only
+data = data[data['Price'] > 4000]
 # Convert the 'Date Posted' column to datetime
 data['Date Posted'] = pd.to_datetime(data['Date Posted'])
 
