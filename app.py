@@ -20,7 +20,7 @@ data['Day'] = data['Date Posted'].dt.day
 # Define functions for each page
 def dashboard():
     st.image('Logo.PNG.png', use_column_width=True)
-    st.subheader("💡 Agba Baller:Luxury Or Nothing")
+    st.subheader("💡 Agba Baller: Luxury Or Nothing")
     inspiration = '''
     The Luxury Property Listing App (aka Agba Baller) is a sophisticated data-driven platform designed to provide detailed market analysis, property valuations, and investment opportunities in the luxury real estate market. Specifically focused on property listings in Ontario with rental prices exceeding 4000 CAD, this app leverages advanced data analytics and machine learning techniques to offer valuable insights to investors, property managers, and prospective tenants.
     '''
