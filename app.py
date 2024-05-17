@@ -103,7 +103,7 @@ def geographical_analysis():
 
 # Main App Logic
 def main():
-    st.sidebar.title("Kijiji Community App")
+    st.sidebar.title("Agba Baller")
     app_page = st.sidebar.radio("Select a Page", ["Dashboard", "EDA", "Market Trends", "Property Value Prediction", "Investment Opportunities", "Geographical Analysis"])
 
     if app_page == "Dashboard":
